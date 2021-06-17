@@ -7,3 +7,6 @@ ssh -J appuser@178.154.203.129 appuser@10.128.0.29
 
 bastion_IP = 178.154.203.129  
 someinternalhost_IP = 10.128.0.29
+
+testapp_IP = 84.252.130.146
+testapp_port = 9292
