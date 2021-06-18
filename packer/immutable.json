@@ -27,7 +27,16 @@
     },
     {
         "type": "shell",
-        "script": "scripts/deploy.sh",
+        "inline": [
+            "sudo apt-get install -y git",
+            "cd /home/ubuntu",
+            "git clone -b monolith https://github.com/express42/reddit.git",
+            "cd reddit && bundle install"
+        ]
+    },
+    {
+        "type": "shell",
+        "script": "scripts/files/start.puma.sh",
         "execute_command": "sudo {{.Path}}"
     }
 ]
