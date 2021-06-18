@@ -1,5 +1,5 @@
 {
     "catalod_id" : "bla-bla",
     "images_sourse_id" : "ubuntu-1604-lts",
-    "path_to_key" : "../path_to_key"
+    "path_to_key" : "../secrets/key.json"
 }
