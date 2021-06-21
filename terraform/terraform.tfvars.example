@@ -1,0 +1,8 @@
+cloud_id        = "23123123131i4bpr"
+folder_id       = "asdasdasda9leam2"
+zone            = "ru-central1-a"
+image_id        = "3123123123"
+public_key_path = "/path/to/key.pub"
+subnet_id       = "easdasd23123123"
+#token       = ""
+service_account_key_file = "../packer/scripts/files/falsekey.json"
