@@ -19,6 +19,11 @@
         "type": "shell",
         "script": "scripts/install_ruby.sh",
         "execute_command": "sudo {{.Path}}"
+    },
+    {
+        "type": "shell",
+        "script": "scripts/deploy.sh",
+        "execute_command": "sudo {{.Path}}"
     }
 ]
 }
