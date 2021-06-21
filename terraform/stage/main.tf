@@ -1,6 +1,3 @@
-module "consul" {
-  source = "../modules"
-}
 provider "yandex" {
   # token     = var.token
   service_account_key_file = var.service_account_key_file
@@ -14,7 +11,6 @@ module "app" {
   app_disk_image  = var.app_disk_image
   subnet_id       = var.subnet_id
 }
-
 module "db" {
   source          = "../modules/db"
   public_key_path = var.public_key_path
