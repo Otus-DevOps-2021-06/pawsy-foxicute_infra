@@ -5,3 +5,4 @@ secrets/
 *.tfvars
 .terraform/
 key.json
+versions.tf                 = "~> 0.35.0"
