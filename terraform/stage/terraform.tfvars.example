@@ -4,6 +4,5 @@ zone            = "ru-central1-a"
 image_id        = "fd8chj7g0mmar2irdiq3"
 public_key_path = "~/.ssh/appuser.pub"
 subnet_id       = "e9bsp46b89aurtoh4ai7"
-node_count      = 2
-#token       = ""
+node_count      = 1
 service_account_key_file = "../secrets/key.json"
