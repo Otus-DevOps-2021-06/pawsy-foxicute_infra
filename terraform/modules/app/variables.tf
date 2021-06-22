@@ -10,3 +10,7 @@ variable app_disk_image {
 variable subnet_id {
   description = "Subnets for modules"
 }
+
+variable int_db_address {
+  description = "Internal db ip address"
+}
