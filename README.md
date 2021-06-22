@@ -38,7 +38,7 @@ testapp_port = 9292
 ```
 provisioner "remote-exec" {
     inline = [
-    "echo \"DATABASE_URL=\" ${module.db.network_interface.0.ip_address} \"\" | sudo tee -a /etc/environment",
+    "echo \"DATABASE_URL=\" ${var.int_db_address} \"\" | sudo tee -a /etc/environment",
     "cat /etc/environment",
    ]
   }
