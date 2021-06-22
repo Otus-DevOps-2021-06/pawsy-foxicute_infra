@@ -25,4 +25,10 @@ resource "yandex_compute_instance" "app" {
   metadata = {
     ssh-keys = "ubuntu:${file(var.public_key_path)}"
   }
+  provisioner "remote-exec" {
+    inline = [
+    "echo \"DATABASE_URL=\" ${module.db.network_interface.0.ip_address} \"\" | sudo tee -a /etc/environment",
+    "cat /etc/environment",
+   ]
+  }
 }
