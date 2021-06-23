@@ -22,3 +22,8 @@ testapp_port = 9292
 --metadata serial-port-enable=1 \
 --metadata-from-file user-data=./metadata.yml
 ```
+
+## Lesson 8
+Выполненны все задания.
+Добавлен балансировщик и используется `count` для создания нескольких инстансов VM.
+Балансировщик работал при отключение однрй из машин.
