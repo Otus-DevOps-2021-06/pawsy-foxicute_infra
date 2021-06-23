@@ -5,7 +5,7 @@
       become: true
       name: "reload puma"
       systemd: "name=puma state=restarted"
-  hosts: all
+  hosts: app
   name: "Configure hosts & deploy application"
   tasks:
     -

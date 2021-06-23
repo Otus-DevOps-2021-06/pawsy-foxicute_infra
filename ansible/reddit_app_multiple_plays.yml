@@ -24,6 +24,7 @@
     -
       name: "reload puma"
       systemd: "name=puma state=restarted"
+
   hosts: app
   name: "Configure App"
   tags: app-tag
