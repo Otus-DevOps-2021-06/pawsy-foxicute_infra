@@ -4,23 +4,22 @@
   hosts: db
   name: "Install MongoDB 3.2"
   tasks:
-    -
-      ansible.builtin.apt_key:
+    - ansible.builtin.apt_key:
         url: "http://www.mongodb.org/static/pgp/server-4.2.asc"
       name: "Add APT key"
-    -
-      apt_repository:
+
+    - apt_repository:
         repo: "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse"
         state: present
       name: "Add APT repository"
-    -
-      apt:
+
+    - apt:
         name: mongodb-org
         state: present
         update_cache: true
       name: "Install mongodb package"
-    -
-      name: "Configure service supervisor"
+
+    - name: "Configure service supervisor"
       systemd:
         enabled: true
         name: mongod
