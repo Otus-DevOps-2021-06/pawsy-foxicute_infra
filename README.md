@@ -80,7 +80,7 @@ PLAY RECAP *********************************************************************
 }
 ```
 
-Объяснение почему `inventory.json` должен выглядить именно так сказанно [тут](https://stackoverflow.com/questions/48680425/how-to-use-json-file-consisting-of-host-info-as-input-to-ansible-inventory).
+Объяснение почему `inventory.json` должен выглядеть именно так сказано [тут](https://stackoverflow.com/questions/48680425/how-to-use-json-file-consisting-of-host-info-as-input-to-ansible-inventory).
 
 > Those nulls are odd-looking but in the YAML example you'll see the trailing colon which does indeed mean each of those hosts are effectively dictionary/hash keys.
 
