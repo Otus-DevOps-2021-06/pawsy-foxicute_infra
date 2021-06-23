@@ -4,7 +4,7 @@
   hosts: db
   name: "Install MongoDB 3.2"
   tasks:
-    - ansible.builtin.apt_key:
+    - apt_key:
         url: "http://www.mongodb.org/static/pgp/server-4.2.asc"
       name: "Add APT key"
 
