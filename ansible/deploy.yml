@@ -1,15 +1,18 @@
-- name: Deploy App
-  hosts: app
+---
+-
   become: true
+  hosts: app
+  name: "Deploy App"
   tasks:
-    - name: Fetch the latest version of application code
+    -
       git:
-        repo: 'https://github.com/express42/reddit.git'
         dest: /home/ubuntu/reddit
+        repo: "https://github.com/express42/reddit.git"
         version: monolith
-      notify: restart puma
-
-    - name: bundle install
+      name: "Fetch the latest version of application code"
+      notify: "restart puma"
+    -
       bundler:
-        state: present
         chdir: /home/ubuntu/reddit
+        state: present
+      name: "bundle install"
