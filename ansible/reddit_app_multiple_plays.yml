@@ -1,67 +1,70 @@
 ---
-- name: Configure MongoDB
+-
+  become: true
+  handlers:
+    -
+      name: "restart mongod"
+      service: "name=mongod state=restarted"
   hosts: db
+  name: "Configure MongoDB"
   tags: db-tag
-  become: true
-  vars:
-    mongo_bind_ip: 0.0.0.0
   tasks:
-    - name: Change mongo config file
+    -
+      name: "Change mongo config file"
+      notify: "restart mongod"
       template:
-        src: templates/mongod.conf.j2
         dest: /etc/mongod.conf
-        mode: 0644
-      notify: restart mongod
-
-  handlers:
-  - name: restart mongod
-    service: name=mongod state=restarted
-
-- name: Configure App
-  hosts: app
-  tags: app-tag
-  become: true
+        mode: 420
+        src: templates/mongod.conf.j2
   vars:
-   db_host: 10.128.0.9
-  tasks:
-    - name: Add unit file for Puma
-      copy:
-        src: files/puma.service
-        dest: /etc/systemd/system/puma.service
-      notify: reload puma
-
-    - name: Add config for DB connection
-      template:
-        src: templates/db_config.j2
-        dest: /home/ubuntu/db_config
-        owner: ubuntu
-        group: ubuntu
-
-    - name: enable puma
-      systemd: name=puma enabled=yes
-
+    mongo_bind_ip: "0.0.0.0"
+-
+  become: true
   handlers:
-  - name: reload puma
-    systemd: name=puma state=restarted
-
-
-- name: Deploy App
+    -
+      name: "reload puma"
+      systemd: "name=puma state=restarted"
   hosts: app
+  name: "Configure App"
+  tags: app-tag
+  tasks:
+    -
+      copy:
+        dest: /etc/systemd/system/puma.service
+        src: files/puma.service
+      name: "Add unit file for Puma"
+      notify: "reload puma"
+    -
+      name: "Add config for DB connection"
+      template:
+        dest: /home/ubuntu/db_config
+        group: ubuntu
+        owner: ubuntu
+        src: templates/db_config.j2
+    -
+      name: "enable puma"
+      systemd: "name=puma enabled=yes"
+  vars:
+    db_host: "10.128.0.9"
+-
+  handlers:
+    -
+      become: true
+      name: "restart puma"
+      systemd: "name=puma state=restarted"
+  hosts: app
+  name: "Deploy App"
   tags: deploy-tag
   tasks:
-    - name: Fetch the latest version of application code
+    -
       git:
-        repo: 'https://github.com/express42/reddit.git'
         dest: /home/ubuntu/reddit
+        repo: "https://github.com/express42/reddit.git"
         version: monolith
-      notify: restart puma
-
-    - name: bundle install
+      name: "Fetch the latest version of application code"
+      notify: "restart puma"
+    -
       bundler:
-        state: present
         chdir: /home/ubuntu/reddit
-
-  handlers:
-  - name: restart puma
-    become: true
-    systemd: name=puma state=restarted
+        state: present
+      name: "bundle install"
