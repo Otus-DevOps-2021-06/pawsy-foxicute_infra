@@ -43,5 +43,48 @@ provisioner "remote-exec" {
    ]
   }
 ```
+
 Так как у меня образы ставятся уже с установленными приложениями. То я добавляю переменную
 окружения модуля db. Тем самым указывая адрес БД.
+
+## Lesson 10
+
+После выполнения плейбука `ansible-playbook clone.yml` вывод:
+```
+PLAY RECAP *********************************************************************
+178.154.252.59         : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+```
+После выполнения команды `ansible app -m command -a 'rm -rf ~/reddit' && ansible-playbook clone.yml` вывод:
+```
+PLAY RECAP *********************************************************************
+178.154.252.59         : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+```
+Вывод: было выполненно изменение связаннное со скачиванием репозитория. Правда бывали и фейлы.
+
+Использование в качестве инвентаря `inventory.json` с командой
+`ansible -i inventory.json all -m ping` выводит положительный результат
+```
+178.154.252.59 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+178.154.200.19 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+```
+
+Объяснение почему `inventory.json` должен выглядить именно так сказанно [тут](https://stackoverflow.com/questions/48680425/how-to-use-json-file-consisting-of-host-info-as-input-to-ansible-inventory).
+
+> Those nulls are odd-looking but in the YAML example you'll see the trailing colon which does indeed mean each of those hosts are effectively dictionary/hash keys.
+
+> Эти nulls выглядят странно, но в примере с YAML вы увидите конечное двоеточие, что действительно означает, что каждый из этих хостов фактически является dictionary/hash ключами.
+
+Динамически получать инвентарь типа json не получается, но написал команду которая будет формировать файл `hosts`, в котором будут храниться имя и ip vm'ов, и уже из этого файла можно создавать инвентарь. Команда:
+`yc compute instance list | awk '{print $4 "\t" $12}' | sed '/[0-9]/!d' | tee hosts`
