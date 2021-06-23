@@ -4,3 +4,5 @@ secrets/
 *.tfstate.backup
 *.tfvars
 .terraform/
+key.json
+versions.tf
