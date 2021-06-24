@@ -225,3 +225,23 @@ PLAY RECAP *********************************************************************
 36 directories, 82 files
  ```
 </details>
+
+## Lesson 13
+Сделано:
+ + Настроен `Vagrant`
+
+
+Проверям статус машин с помощью команды `vagrant status`
+
+```
+Current machine states:
+
+dbserver                  running (virtualbox)
+appserver                 running (virtualbox)
+```
+Проверям статус рабочих машин с помощью команды `VBoxManage list runningvms`
+
+```
+"ansible_dbserver_1624561417103_68155" {2a1c4cb2-9d1b-4ed7-9f82-8c40ea9c51c9}
+"ansible_appserver_1624561544168_4424" {7aa689b0-d4b2-46fd-ab7b-edae499d71cc}
+```

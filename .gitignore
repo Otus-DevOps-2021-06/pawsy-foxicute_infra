@@ -1,4 +1,7 @@
+#Mine
 secrets/
+commands.md
+#Terraform
 *.tfstate
 *.tfstate.*.backup
 *.tfstate.backup
@@ -6,6 +9,16 @@ secrets/
 .terraform/
 key.json
 versions.tf
+
+#Ansible
 *.retry
 jdauphant.nginx
 vault.key
+
+#Vagrant
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
