@@ -88,3 +88,140 @@ PLAY RECAP *********************************************************************
 
 Динамически получать инвентарь типа json не получается, но написал команду которая будет формировать файл `hosts`, в котором будут храниться имя и ip vm'ов, и уже из этого файла можно создавать инвентарь. Команда:
 `yc compute instance list | awk '{print $4 "\t" $12}' | sed '/[0-9]/!d' | tee hosts`
+
+
+## Lesson 12
+Сделано:
+ + Плейбуки разбиты по ролям c помощью `Ansible Galaxy`;
+ + Созданы окружения `prod` и `stage`;
+ + Использована роль Nginx для обратного проксирования;
+ + Использовали `Ansible Vault` для шифрования переменных в `ansible/environments/stagecredentials.yml`
+
+<details open>
+<summary>Структура каталога "./ansible"</summary>
+<br>
+
+```
+ ansible/
+├── ansible.cfg
+├── environments
+│   ├── prod
+│   │   ├── credentials.yml
+│   │   ├── group_vars
+│   │   │   ├── all
+│   │   │   ├── app
+│   │   │   └── db
+│   │   └── requirements.yml
+│   └── stage
+│       ├── credentials.yml
+│       ├── group_vars
+│       │   ├── all
+│       │   ├── app
+│       │   └── db
+│       ├── inventory
+│       └── requirements.yml
+├── old
+│   ├── files
+│   │   └── puma.service
+│   ├── inventory.json
+│   ├── inventory.yml
+│   └── templates
+│       ├── db_config.j2
+│       └── mongod.conf.j2
+├── playbooks
+│   ├── app.yml
+│   ├── clone.yml
+│   ├── db.yml
+│   ├── deploy.yml
+│   ├── packer_app.yml
+│   ├── packer_db.yml
+│   ├── reddit_app_multiple_plays.yml
+│   ├── reddit_app_one_play.yml
+│   ├── site.yml
+│   └── users.yml
+├── requirements.txt
+├── roles
+│   ├── app
+│   │   ├── defaults
+│   │   │   └── main.yml
+│   │   ├── files
+│   │   │   └── puma.service
+│   │   ├── handlers
+│   │   │   └── main.yml
+│   │   ├── meta
+│   │   │   └── main.yml
+│   │   ├── README.md
+│   │   ├── tasks
+│   │   │   └── main.yml
+│   │   ├── templates
+│   │   │   └── db_config.j2
+│   │   ├── tests
+│   │   │   ├── inventory
+│   │   │   └── test.yml
+│   │   └── vars
+│   │       └── main.yml
+│   ├── db
+│   │   ├── defaults
+│   │   │   └── main.yml
+│   │   ├── files
+│   │   ├── handlers
+│   │   │   └── main.yml
+│   │   ├── meta
+│   │   │   └── main.yml
+│   │   ├── README.md
+│   │   ├── tasks
+│   │   │   └── main.yml
+│   │   ├── templates
+│   │   │   └── mongod.conf.j2
+│   │   ├── tests
+│   │   │   ├── inventory
+│   │   │   └── test.yml
+│   │   └── vars
+│   │       └── main.yml
+│   └── jdauphant.nginx
+│       ├── ansible.cfg
+│       ├── defaults
+│       │   └── main.yml
+│       ├── handlers
+│       │   └── main.yml
+│       ├── meta
+│       │   └── main.yml
+│       ├── README.md
+│       ├── tasks
+│       │   ├── amplify.yml
+│       │   ├── cloudflare_configuration.yml
+│       │   ├── configuration.yml
+│       │   ├── ensure-dirs.yml
+│       │   ├── installation.packages.yml
+│       │   ├── main.yml
+│       │   ├── nginx-official-repo.yml
+│       │   ├── remove-defaults.yml
+│       │   ├── remove-extras.yml
+│       │   ├── remove-unwanted.yml
+│       │   └── selinux.yml
+│       ├── templates
+│       │   ├── auth_basic.j2
+│       │   ├── config_cloudflare.conf.j2
+│       │   ├── config.conf.j2
+│       │   ├── config_stream.conf.j2
+│       │   ├── module.conf.j2
+│       │   ├── nginx.conf.j2
+│       │   ├── nginx.repo.j2
+│       │   └── site.conf.j2
+│       ├── test
+│       │   ├── custom_bar.conf.j2
+│       │   ├── example-vars.yml
+│       │   └── test.yml
+│       ├── Vagrantfile
+│       └── vars
+│           ├── Debian.yml
+│           ├── empty.yml
+│           ├── FreeBSD.yml
+│           ├── main.yml
+│           ├── RedHat.yml
+│           └── Solaris.yml
+└── vault.key
+
+36 directories, 82 files
+ ```
+</details>
