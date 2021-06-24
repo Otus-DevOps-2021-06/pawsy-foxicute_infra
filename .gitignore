@@ -7,3 +7,5 @@ secrets/
 key.json
 versions.tf
 *.retry
+jdauphant.nginx
+vault.key

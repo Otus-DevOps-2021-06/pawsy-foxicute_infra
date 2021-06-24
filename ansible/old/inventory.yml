@@ -2,12 +2,12 @@ app:
   hosts:
     appserver:
       ansible_connection: ssh
-      ansible_host: 217.28.229.178
+      ansible_host: 217.28.229.230
       ansible_port: 22
 
 db:
   hosts:
     dbserver:
       ansible_connection: ssh
-      ansible_host: 178.154.252.59
+      ansible_host: 130.193.49.26
       ansible_port: 22
