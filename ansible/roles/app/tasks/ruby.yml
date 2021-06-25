@@ -1,0 +1,14 @@
+---
+-
+  become: true
+  hosts: app
+  name: "Install Ruby && Bundler"
+  tasks:
+    -
+      apt:
+        pkg:
+          - ruby-full
+          - ruby-bundler
+          - build-essential
+        update_cache: true
+      name: "Install ruby and rubygems and required packages"

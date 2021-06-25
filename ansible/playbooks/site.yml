@@ -1,5 +1,7 @@
 ---
 -
+  import_playbook: base.yml
+-
   import_playbook: db.yml
 -
   import_playbook: app.yml
