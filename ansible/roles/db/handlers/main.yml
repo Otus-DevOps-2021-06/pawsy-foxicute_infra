@@ -1,0 +1,3 @@
+- name: restart mongod
+  become: true
+  service: name=mongod state=restarted

@@ -12,18 +12,13 @@
         "use_ipv4_nat": true,
         "subnet_id": "e9bsp46b89aurtoh4ai7"
     }
-],
+  ],
 
-"provisioners": [
+  "provisioners": [
     {
-        "type": "shell",
-        "script": "scripts/install_ruby.sh",
-        "execute_command": "sudo {{.Path}}"
-    },
-    {
-        "type": "shell",
-        "script": "scripts/deploy.sh",
-        "execute_command": "sudo {{.Path}}"
+        "type": "ansible",
+        "playbook_file": "ansible/playbooks/packer_app.yml"
+
     }
-]
+  ]
 }

@@ -1,0 +1,18 @@
+---
+-
+  become: true
+  hosts: app
+  name: "Deploy App"
+  tasks:
+    -
+      git:
+        dest: "/home/{{ deploy_user }}/reddit"
+        repo: "https://github.com/express42/reddit.git"
+        version: monolith
+      name: "Fetch the latest version of application code"
+      notify: "restart puma"
+    -
+      bundler:
+        chdir: "/home/{{ deploy_user }}/reddit"
+        state: present
+      name: "bundle install"

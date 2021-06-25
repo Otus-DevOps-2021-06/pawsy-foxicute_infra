@@ -1,0 +1,36 @@
+---
+-
+  handlers:
+    -
+      become: true
+      name: "reload puma"
+      systemd: "name=puma state=restarted"
+  hosts: app
+  name: "Configure hosts & deploy application"
+  tasks:
+    -
+      become: true
+      copy:
+        dest: /etc/systemd/system/puma.service
+        src: files/puma.service
+      name: "Add unit file for Puma"
+      notify: "reload puma"
+      tags: app-tag
+    -
+      become: true
+      name: "enable puma"
+      systemd: "name=puma enabled=yes"
+      tags: app-tag
+    -
+      name: "Add config for DB connection"
+      tags: app-tag
+      template:
+        dest: /home/ubuntu/db_config
+        src: templates/db_config.j2
+    -
+      become: true
+      name: "enable puma"
+      systemd: "name=puma enabled=yes"
+      tags: app-tag
+  vars:
+    db_host: "10.128.0.9"

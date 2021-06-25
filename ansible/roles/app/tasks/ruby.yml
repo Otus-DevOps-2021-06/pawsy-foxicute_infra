@@ -1,0 +1,27 @@
+
+---
+- name: Installing ruby, rubygems and git packages
+  tags:
+  - ruby
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+  with_items:
+    - ruby-full
+    - ruby-bundler
+    - build-essential
+    - git
+
+#For passing test
+#---
+#- name: 'Installing ruby, rubygems and git packages'
+  #become: true
+  #hosts: app
+  #tasks:
+  #- name: "Install ruby and rubygems and required packages"
+    #apt:
+      #pkg:
+       # - ruby-full
+       # - ruby-bundler
+       # - build-essential
+      #update_cache: true

@@ -1,0 +1,71 @@
+---
+-
+  become: true
+  handlers:
+    -
+      name: "restart mongod"
+      service: "name=mongod state=restarted"
+  hosts: db
+  name: "Configure MongoDB"
+  tags: db-tag
+  tasks:
+    -
+      name: "Change mongo config file"
+      notify: "restart mongod"
+      template:
+        dest: /etc/mongod.conf
+        mode: 420
+        src: templates/mongod.conf.j2
+  vars:
+    mongo_bind_ip: "0.0.0.0"
+-
+  become: true
+  handlers:
+    -
+      name: "reload puma"
+      systemd: "name=puma state=restarted"
+
+  hosts: app
+  name: "Configure App"
+  tags: app-tag
+  tasks:
+    -
+      copy:
+        dest: /etc/systemd/system/puma.service
+        src: files/puma.service
+      name: "Add unit file for Puma"
+      notify: "reload puma"
+    -
+      name: "Add config for DB connection"
+      template:
+        dest: /home/ubuntu/db_config
+        group: ubuntu
+        owner: ubuntu
+        src: templates/db_config.j2
+    -
+      name: "enable puma"
+      systemd: "name=puma enabled=yes"
+  vars:
+    db_host: "10.128.0.9"
+-
+  handlers:
+    -
+      become: true
+      name: "restart puma"
+      systemd: "name=puma state=restarted"
+  hosts: app
+  name: "Deploy App"
+  tags: deploy-tag
+  tasks:
+    -
+      git:
+        dest: /home/ubuntu/reddit
+        repo: "https://github.com/express42/reddit.git"
+        version: monolith
+      name: "Fetch the latest version of application code"
+      notify: "restart puma"
+    -
+      bundler:
+        chdir: /home/ubuntu/reddit
+        state: present
+      name: "bundle install"

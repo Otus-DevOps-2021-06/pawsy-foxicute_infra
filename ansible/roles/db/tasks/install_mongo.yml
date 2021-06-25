@@ -1,0 +1,34 @@
+
+---
+- name: Add an apt signing key for MongoDB
+  become: true
+  apt_key:
+    url: "http://www.mongodb.org/static/pgp/server-4.2.asc"
+  tags: install
+
+- name: Add MongoDB repositry
+  become: true
+  apt_repository:
+    repo: "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse"
+    state: present
+    filename: mongodb-org-4.2
+  tags: install
+
+- name: Install required packages
+  become: true
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - apt-transport-https
+    - mongodb-org
+  tags: install
+
+- name: Start and enable MongoDB service
+  become: true
+  systemd:
+    name: mongod
+    state: started
+    enabled: yes
+  tags: install
