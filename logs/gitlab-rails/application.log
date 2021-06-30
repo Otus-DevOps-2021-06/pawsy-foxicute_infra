@@ -97,3 +97,23 @@ Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_c
 2021-06-30T17:15:56.597Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
 2021-06-30T17:16:22.607Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
 2021-06-30T17:16:37.558Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T17:19:43.930Z: Updating statistics for project 3
+2021-06-30T17:19:44.357Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2021-06-30T17:19:44.660Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:3. There must be another instance already in execution.
+2021-06-30T17:20:13.375Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:3. There must be another instance already in execution.
+2021-06-30T17:20:13.428Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:3. There must be another instance already in execution.
+2021-06-30T17:20:40.191Z: User 1 scheduled destruction of project example1/asd with job ID cc6b7bdc3a00ea010c3359a3
+2021-06-30T17:20:40.436Z: Attempting to destroy example1/asd (4)
+2021-06-30T17:20:40.747Z: Repository "@hashed/4b/22/4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a" moved to "@hashed/4b/22/4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a+4+deleted" for repository "example1/asd"
+2021-06-30T17:20:40.748Z: Repository "example1/asd" was removed
+2021-06-30T17:20:41.012Z: Repository "@hashed/4b/22/4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.wiki" moved to "@hashed/4b/22/4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a.wiki+4+deleted" for repository "example1/asd.wiki"
+2021-06-30T17:20:41.012Z: Repository "example1/asd.wiki" was removed
+2021-06-30T17:20:46.283Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:3. There must be another instance already in execution.
+2021-06-30T17:20:46.719Z: User 1 scheduled destruction of project root/homework with job ID 025de7d3a81a2462937f2140
+2021-06-30T17:20:46.786Z: Attempting to destroy root/homework (2)
+2021-06-30T17:20:46.894Z: Repository "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35" moved to "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35+2+deleted" for repository "root/homework"
+2021-06-30T17:20:46.895Z: Repository "root/homework" was removed
+2021-06-30T17:20:47.009Z: Repository "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.wiki" moved to "@hashed/d4/73/d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35.wiki+2+deleted" for repository "root/homework.wiki"
+2021-06-30T17:20:47.009Z: Repository "root/homework.wiki" was removed
+2021-06-30T17:20:48.187Z: Project "root/homework" was deleted
+2021-06-30T17:20:48.188Z: Project "example1/asd" was deleted

@@ -1,0 +1,20 @@
+[0KRunning with gitlab-runner 14.0.1 (c1edb478)
+[0;m[0K  on DockerRunner hU5GzFx3
+[0;msection_start:1625073622:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m
+[0;m[0KUsing Docker executor with image alpine:latest ...
+[0;m[0KPulling docker image alpine:latest ...
+[0;m[0KUsing docker image sha256:d4ff818577bc193b309b355b02ebc9220427090057b54a59e73b79bdfe139b83 for alpine:latest with digest alpine@sha256:234cb88d3020898631af0ccbbcca9a66ae7306ecd30c9720690858c1b007d2a0 ...
+[0;msection_end:1625073627:prepare_executor[0Ksection_start:1625073627:prepare_script[0K[0K[36;1mPreparing environment[0;m
+[0;mRunning on runner-hu5gzfx3-project-3-concurrent-0 via 35cbbffb1e28...
+section_end:1625073628:prepare_script[0Ksection_start:1625073628:get_sources[0K[0K[36;1mGetting source from Git repository[0;m
+[0;m[32;1mFetching changes with git depth set to 50...[0;m
+Reinitialized existing Git repository in /builds/root/example/.git/
+[32;1mChecking out 07261b85 as gitlab-ci-1...[0;m
+
+[32;1mSkipping Git submodules setup[0;m
+section_end:1625073632:get_sources[0Ksection_start:1625073632:step_script[0K[0K[36;1mExecuting "step_script" stage of the job script[0;m
+[0;m[0KUsing docker image sha256:d4ff818577bc193b309b355b02ebc9220427090057b54a59e73b79bdfe139b83 for alpine:latest with digest alpine@sha256:234cb88d3020898631af0ccbbcca9a66ae7306ecd30c9720690858c1b007d2a0 ...
+[0;m[32;1m$ echo 'Testing 1'[0;m
+Testing 1
+section_end:1625073634:step_script[0K[32;1mJob succeeded
+[0;m

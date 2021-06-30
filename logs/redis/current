@@ -80,3 +80,8 @@
 2021-06-30_17:18:13.19950 10236:C 30 Jun 2021 17:18:13.199 * DB saved on disk
 2021-06-30_17:18:13.20010 10236:C 30 Jun 2021 17:18:13.200 * RDB: 2 MB of memory used by copy-on-write
 2021-06-30_17:18:13.28954 491:M 30 Jun 2021 17:18:13.289 * Background saving terminated with success
+2021-06-30_17:23:14.02674 491:M 30 Jun 2021 17:23:14.025 * 10 changes in 300 seconds. Saving...
+2021-06-30_17:23:14.03220 491:M 30 Jun 2021 17:23:14.032 * Background saving started by pid 11062
+2021-06-30_17:23:14.04666 11062:C 30 Jun 2021 17:23:14.046 * DB saved on disk
+2021-06-30_17:23:14.04723 11062:C 30 Jun 2021 17:23:14.047 * RDB: 1 MB of memory used by copy-on-write
+2021-06-30_17:23:14.13301 491:M 30 Jun 2021 17:23:14.132 * Background saving terminated with success
