@@ -1,0 +1,7 @@
+# Logfile created on 2021-06-30 16:03:36 +0000 by logger.rb/v1.4.2
+{"severity":"INFO","time":"2021-06-30T16:03:36.310Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-06-30T16:04:18.731Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-06-30T16:04:51.239Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-06-30T16:05:03.232Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-06-30T16:05:54.812Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-06-30T16:06:37.859Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}

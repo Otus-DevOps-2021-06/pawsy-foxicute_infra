@@ -1,0 +1,2 @@
+# Logfile created on 2021-06-30 16:19:04 +0000 by logger.rb/v1.4.2
+{"severity":"INFO","time":"2021-06-30T16:19:04.583Z","correlation_id":"01F9EVEZJ1S3DX620PTZ6PJ8ZG","author_id":1,"author_name":"Administrator","entity_id":1,"entity_type":"User","with":"standard","target_id":1,"target_type":"User","target_details":"Administrator"}

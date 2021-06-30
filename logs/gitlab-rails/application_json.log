@@ -1,0 +1,61 @@
+# Logfile created on 2021-06-30 16:03:35 +0000 by logger.rb/v1.4.2
+{"severity":"DEBUG","time":"2021-06-30T16:03:35.730Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-06-30T16:03:36.281Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.066Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.101Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-06-30T16:03:58.133Z","correlation_id":null,"message":"Created partition audit_events_000000 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.155Z","correlation_id":null,"message":"Created partition audit_events_202106 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.172Z","correlation_id":null,"message":"Created partition audit_events_202107 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.191Z","correlation_id":null,"message":"Created partition audit_events_202108 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.212Z","correlation_id":null,"message":"Created partition audit_events_202109 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.230Z","correlation_id":null,"message":"Created partition audit_events_202110 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.250Z","correlation_id":null,"message":"Created partition audit_events_202111 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.269Z","correlation_id":null,"message":"Created partition audit_events_202112 for table audit_events"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.270Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-06-30T16:03:58.292Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Lock timeout is set","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-06-30T16:03:58.317Z","correlation_id":null,"message":"Created partition web_hook_logs_000000 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.347Z","correlation_id":null,"message":"Created partition web_hook_logs_202106 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.364Z","correlation_id":null,"message":"Created partition web_hook_logs_202107 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.384Z","correlation_id":null,"message":"Created partition web_hook_logs_202108 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.405Z","correlation_id":null,"message":"Created partition web_hook_logs_202109 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.424Z","correlation_id":null,"message":"Created partition web_hook_logs_202110 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.444Z","correlation_id":null,"message":"Created partition web_hook_logs_202111 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.465Z","correlation_id":null,"message":"Created partition web_hook_logs_202112 for table web_hook_logs"}
+{"severity":"INFO","time":"2021-06-30T16:03:58.465Z","correlation_id":null,"method":"with_lock_retries","class":"Gitlab::Database::Partitioning::PartitionCreator","message":"Migration finished","current_iteration":1,"lock_timeout_in_ms":100}
+{"severity":"INFO","time":"2021-06-30T16:03:59.291Z","correlation_id":null,"message":"User \"Administrator\" (admin@example.com) was created"}
+{"severity":"INFO","time":"2021-06-30T16:03:59.575Z","correlation_id":null,"message":"Group \"GitLab Instance\" was created"}
+{"severity":"INFO","time":"2021-06-30T16:04:00.266Z","correlation_id":"0531bf221d5ff37585277bef5ca9fbe7","message":"GitLab Instance created a new project \"GitLab Instance / Monitoring\""}
+{"severity":"ERROR","time":"2021-06-30T16:04:00.431Z","correlation_id":"0531bf221d5ff37585277bef5ca9fbe7","message":"`AuthorizedProjectUpdate::ProjectCreateWorker.perform_async` cannot be called inside a transaction as this can lead to\nrace conditions when the worker runs before the transaction is committed and\ntries to access a model that has not been saved yet.\n\nUse an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.\n"}
+{"severity":"ERROR","time":"2021-06-30T16:04:00.447Z","correlation_id":"0531bf221d5ff37585277bef5ca9fbe7","message":"`Projects::PostCreationWorker.perform_async` cannot be called inside a transaction as this can lead to\nrace conditions when the worker runs before the transaction is committed and\ntries to access a model that has not been saved yet.\n\nUse an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.\n"}
+{"severity":"INFO","time":"2021-06-30T16:04:01.499Z","correlation_id":null,"event":"authorized_projects_refresh","user_id":1,"authorized_projects_refresh.source":"AuthorizedProjectsWorker","authorized_projects_refresh.rows_deleted_count":0,"authorized_projects_refresh.rows_added_count":0,"authorized_projects_refresh.rows_deleted_slice":[],"authorized_projects_refresh.rows_added_slice":[]}
+{"severity":"ERROR","time":"2021-06-30T16:04:01.502Z","correlation_id":null,"message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}
+{"severity":"DEBUG","time":"2021-06-30T16:04:17.743Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-06-30T16:04:18.685Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-06-30T16:04:51.166Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-06-30T16:05:03.155Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-06-30T16:05:32.356Z","correlation_id":null,"message":"ActiveRecord connection disconnected"}
+{"severity":"DEBUG","time":"2021-06-30T16:05:33.142Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-06-30T16:05:33.169Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"DEBUG","time":"2021-06-30T16:05:53.964Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-06-30T16:05:54.763Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"DEBUG","time":"2021-06-30T16:06:36.816Z","correlation_id":null,"message":"ActiveRecord connection established"}
+{"severity":"INFO","time":"2021-06-30T16:06:37.812Z","correlation_id":null,"message":"Checking state of dynamic postgres partitions"}
+{"severity":"INFO","time":"2021-06-30T16:12:46.576Z","correlation_id":"01F9EV3E8R8AX8CTJMWXPMSM9R","message":"Failed Login: username=root ip=94.233.249.178"}
+{"severity":"INFO","time":"2021-06-30T16:15:28.561Z","correlation_id":"01F9EV8CDEJ6R77SNVJ633W6CM","message":"User Created: username=denis-yusupov email=wily.mister.fox@gmail.com ip=94.233.249.178 confirmed:false"}
+{"severity":"INFO","time":"2021-06-30T16:16:01.394Z","correlation_id":"01F9EV9CQWDZXCHWHK0C2Q2CYW","message":"\"Failed login for blocked user: user=denis-yusupov ip=94.233.249.178\")\n"}
+{"severity":"INFO","time":"2021-06-30T16:17:29.813Z","correlation_id":"01F9EVC2Y4QSWJ9W5BB61ZP3VW","message":"Failed Login: username=root ip=94.233.249.178"}
+{"severity":"INFO","time":"2021-06-30T16:18:29.441Z","correlation_id":"01F9EVDX7M8F7MTWR1SMJY2BM7","message":"Failed Login: username=root ip=94.233.249.178"}
+{"severity":"INFO","time":"2021-06-30T16:19:04.583Z","correlation_id":"01F9EVEZJ1S3DX620PTZ6PJ8ZG","message":"Successful Login: username=root ip=94.233.249.178 method=standard admin=true"}
+{"severity":"INFO","time":"2021-06-30T16:21:45.501Z","correlation_id":"01F9EVKWTT8MZHKTHPY8BBKWQ1","message":"Group \"example\" was created"}
+{"severity":"INFO","time":"2021-06-30T16:21:45.671Z","correlation_id":"01F9EVKWTT8MZHKTHPY8BBKWQ1","event":"authorized_projects_refresh","user_id":1,"authorized_projects_refresh.source":"AuthorizedProjectsWorker","authorized_projects_refresh.rows_deleted_count":0,"authorized_projects_refresh.rows_added_count":0,"authorized_projects_refresh.rows_deleted_slice":[],"authorized_projects_refresh.rows_added_slice":[]}
+{"severity":"INFO","time":"2021-06-30T16:25:10.413Z","correlation_id":"01F9EVT4PJFCFDR86YZ4BTDM48","message":"Administrator created a new project \"Administrator / homework\""}
+{"severity":"INFO","time":"2021-06-30T16:25:10.668Z","correlation_id":"01F9EVT4PJFCFDR86YZ4BTDM48","event":"authorized_projects_refresh","user_id":1,"authorized_projects_refresh.source":"AuthorizedProjectsWorker","authorized_projects_refresh.rows_deleted_count":0,"authorized_projects_refresh.rows_added_count":1,"authorized_projects_refresh.rows_deleted_slice":[],"authorized_projects_refresh.rows_added_slice":[[1,2,40]]}
+{"severity":"ERROR","time":"2021-06-30T16:25:10.676Z","correlation_id":"01F9EVT4PJFCFDR86YZ4BTDM48","message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}
+{"severity":"INFO","time":"2021-06-30T16:26:02.942Z","correlation_id":"01F9EVVR8C7K1WFQT7Z6BRGR44","message":"Group \"example\" was created"}
+{"severity":"INFO","time":"2021-06-30T16:26:03.019Z","correlation_id":"01F9EVVR8C7K1WFQT7Z6BRGR44","event":"authorized_projects_refresh","user_id":1,"authorized_projects_refresh.source":"AuthorizedProjectsWorker","authorized_projects_refresh.rows_deleted_count":0,"authorized_projects_refresh.rows_added_count":0,"authorized_projects_refresh.rows_deleted_slice":[],"authorized_projects_refresh.rows_added_slice":[]}
+{"severity":"ERROR","time":"2021-06-30T16:26:03.023Z","correlation_id":"01F9EVVR8C7K1WFQT7Z6BRGR44","message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}
+{"severity":"INFO","time":"2021-06-30T16:27:38.854Z","correlation_id":"01F9EVYNX0ZVPGDQMC8SZ7KWHV","message":"User 1 scheduled a deletion of group ID 4 with job ID 5fe54f9b9a47a358559145e3"}
+{"severity":"INFO","time":"2021-06-30T16:27:39.107Z","correlation_id":"01F9EVYNX0ZVPGDQMC8SZ7KWHV","message":"Group \"example\" was removed"}
+{"severity":"INFO","time":"2021-06-30T16:29:30.411Z","correlation_id":"01F9EW22NXM30R8TFE2C793VFE","message":"Administrator created a new project \"Administrator / example\""}
+{"severity":"INFO","time":"2021-06-30T16:29:30.580Z","correlation_id":"01F9EW22NXM30R8TFE2C793VFE","event":"authorized_projects_refresh","user_id":1,"authorized_projects_refresh.source":"AuthorizedProjectsWorker","authorized_projects_refresh.rows_deleted_count":0,"authorized_projects_refresh.rows_added_count":1,"authorized_projects_refresh.rows_deleted_slice":[],"authorized_projects_refresh.rows_added_slice":[[1,3,40]]}
+{"severity":"ERROR","time":"2021-06-30T16:29:30.587Z","correlation_id":"01F9EW22NXM30R8TFE2C793VFE","message":"Cannot obtain an exclusive lease. There must be another instance already in execution."}

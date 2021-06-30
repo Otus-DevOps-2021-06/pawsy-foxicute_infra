@@ -1,0 +1,67 @@
+# Logfile created on 2021-06-30 16:03:35 +0000 by logger.rb/v1.4.2
+2021-06-30T16:03:35.730Z: ActiveRecord connection established
+2021-06-30T16:03:36.281Z: Checking state of dynamic postgres partitions
+2021-06-30T16:03:58.066Z: Checking state of dynamic postgres partitions
+2021-06-30T16:03:58.101Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-06-30T16:03:58.133Z: Created partition audit_events_000000 for table audit_events
+2021-06-30T16:03:58.154Z: Created partition audit_events_202106 for table audit_events
+2021-06-30T16:03:58.171Z: Created partition audit_events_202107 for table audit_events
+2021-06-30T16:03:58.191Z: Created partition audit_events_202108 for table audit_events
+2021-06-30T16:03:58.212Z: Created partition audit_events_202109 for table audit_events
+2021-06-30T16:03:58.230Z: Created partition audit_events_202110 for table audit_events
+2021-06-30T16:03:58.250Z: Created partition audit_events_202111 for table audit_events
+2021-06-30T16:03:58.269Z: Created partition audit_events_202112 for table audit_events
+2021-06-30T16:03:58.270Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-06-30T16:03:58.292Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-06-30T16:03:58.316Z: Created partition web_hook_logs_000000 for table web_hook_logs
+2021-06-30T16:03:58.347Z: Created partition web_hook_logs_202106 for table web_hook_logs
+2021-06-30T16:03:58.364Z: Created partition web_hook_logs_202107 for table web_hook_logs
+2021-06-30T16:03:58.384Z: Created partition web_hook_logs_202108 for table web_hook_logs
+2021-06-30T16:03:58.404Z: Created partition web_hook_logs_202109 for table web_hook_logs
+2021-06-30T16:03:58.424Z: Created partition web_hook_logs_202110 for table web_hook_logs
+2021-06-30T16:03:58.444Z: Created partition web_hook_logs_202111 for table web_hook_logs
+2021-06-30T16:03:58.465Z: Created partition web_hook_logs_202112 for table web_hook_logs
+2021-06-30T16:03:58.465Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionCreator", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-06-30T16:03:59.291Z: User "Administrator" (admin@example.com) was created
+2021-06-30T16:03:59.575Z: Group "GitLab Instance" was created
+2021-06-30T16:04:00.266Z: GitLab Instance created a new project "GitLab Instance / Monitoring"
+2021-06-30T16:04:00.431Z: `AuthorizedProjectUpdate::ProjectCreateWorker.perform_async` cannot be called inside a transaction as this can lead to
+race conditions when the worker runs before the transaction is committed and
+tries to access a model that has not been saved yet.
+
+Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.
+
+2021-06-30T16:04:00.447Z: `Projects::PostCreationWorker.perform_async` cannot be called inside a transaction as this can lead to
+race conditions when the worker runs before the transaction is committed and
+tries to access a model that has not been saved yet.
+
+Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.
+
+2021-06-30T16:04:01.502Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2021-06-30T16:04:17.743Z: ActiveRecord connection established
+2021-06-30T16:04:18.685Z: Checking state of dynamic postgres partitions
+2021-06-30T16:04:51.165Z: Checking state of dynamic postgres partitions
+2021-06-30T16:05:03.155Z: Checking state of dynamic postgres partitions
+2021-06-30T16:05:32.354Z: ActiveRecord connection disconnected
+2021-06-30T16:05:33.142Z: ActiveRecord connection established
+2021-06-30T16:05:33.169Z: ActiveRecord connection established
+2021-06-30T16:05:53.964Z: ActiveRecord connection established
+2021-06-30T16:05:54.762Z: Checking state of dynamic postgres partitions
+2021-06-30T16:06:36.816Z: ActiveRecord connection established
+2021-06-30T16:06:37.812Z: Checking state of dynamic postgres partitions
+2021-06-30T16:12:46.574Z: Failed Login: username=root ip=94.233.249.178
+2021-06-30T16:15:28.561Z: User Created: username=denis-yusupov email=wily.mister.fox@gmail.com ip=94.233.249.178 confirmed:false
+2021-06-30T16:16:01.394Z: "Failed login for blocked user: user=denis-yusupov ip=94.233.249.178")
+
+2021-06-30T16:17:29.813Z: Failed Login: username=root ip=94.233.249.178
+2021-06-30T16:18:29.440Z: Failed Login: username=root ip=94.233.249.178
+2021-06-30T16:19:04.583Z: Successful Login: username=root ip=94.233.249.178 method=standard admin=true
+2021-06-30T16:21:45.501Z: Group "example" was created
+2021-06-30T16:25:10.412Z: Administrator created a new project "Administrator / homework"
+2021-06-30T16:25:10.676Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2021-06-30T16:26:02.942Z: Group "example" was created
+2021-06-30T16:26:03.023Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2021-06-30T16:27:38.853Z: User 1 scheduled a deletion of group ID 4 with job ID 5fe54f9b9a47a358559145e3
+2021-06-30T16:27:39.106Z: Group "example" was removed
+2021-06-30T16:29:30.410Z: Administrator created a new project "Administrator / example"
+2021-06-30T16:29:30.587Z: Cannot obtain an exclusive lease. There must be another instance already in execution.

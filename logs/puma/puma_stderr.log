@@ -1,0 +1,7 @@
+=== puma startup: 2021-06-30 16:05:31 +0000 ===
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 194: failed to recognize type of 'relpartbound'. It will be treated as String.
+unknown OID 28: failed to recognize type of 'relfrozenxid'. It will be treated as String.
+unknown OID 1034: failed to recognize type of 'relacl'. It will be treated as String.
+unknown OID 194: failed to recognize type of 'relpartbound'. It will be treated as String.

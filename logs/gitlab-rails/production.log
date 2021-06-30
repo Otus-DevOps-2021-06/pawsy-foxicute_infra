@@ -1,0 +1,1265 @@
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 494439fb-4e53-4157-ad93-81bd6a113ad5) to Sidekiq(mailers) with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 1]}
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method Ci::Stage.without_statuses.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :preparing. Overwriting existing method Ci::Stage.preparing.
+Creating scope :waiting_for_resource. Overwriting existing method Ci::Stage.waiting_for_resource.
+Creating scope :open. Overwriting existing method ExternalPullRequest.open.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :without_statuses. Overwriting existing method Ci::Stage.without_statuses.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :preparing. Overwriting existing method Ci::Stage.preparing.
+Creating scope :waiting_for_resource. Overwriting existing method Ci::Stage.waiting_for_resource.
+Creating scope :open. Overwriting existing method ExternalPullRequest.open.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Started GET "/" for  at 2021-06-30 16:05:25 +0000
+Processing by RootController#index as HTML
+Redirected to http://example.org/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 59ms (ActiveRecord: 5.6ms | Elasticsearch: 0.0ms | Allocations: 9940)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:05:33 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 905.2ms | Allocations: 380417)
+Completed 200 OK in 922ms (Views: 849.2ms | ActiveRecord: 60.2ms | Elasticsearch: 0.0ms | Allocations: 383222)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [494439fb-4e53-4157-ad93-81bd6a113ad5] Performing ActionMailer::MailDeliveryJob (Job ID: 494439fb-4e53-4157-ad93-81bd6a113ad5) from Sidekiq(mailers) enqueued at 2021-06-30T16:04:01Z with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 1]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [494439fb-4e53-4157-ad93-81bd6a113ad5]   Rendered layout layouts/mailer.html.haml (Duration: 77.2ms | Allocations: 39829)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [494439fb-4e53-4157-ad93-81bd6a113ad5]   Rendered layout layouts/mailer.text.erb (Duration: 7.3ms | Allocations: 1693)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [494439fb-4e53-4157-ad93-81bd6a113ad5] Delivered mail 60dc9652b03de_36526c50-345@gitlab.mail (12.4ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [494439fb-4e53-4157-ad93-81bd6a113ad5] Performed ActionMailer::MailDeliveryJob (Job ID: 494439fb-4e53-4157-ad93-81bd6a113ad5) from Sidekiq(mailers) in 952.17ms
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:05:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1042)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:05:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 622)
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Creating scope :without_statuses. Overwriting existing method Ci::Pipeline.without_statuses.
+Creating scope :open. Overwriting existing method AlertManagement::Alert.open.
+Creating scope :order_name_asc. Overwriting existing method Label.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Label.order_name_desc.
+Creating scope :without_statuses. Overwriting existing method Ci::Stage.without_statuses.
+Creating scope :created. Overwriting existing method Ci::Stage.created.
+Creating scope :pending. Overwriting existing method Ci::Stage.pending.
+Creating scope :running. Overwriting existing method Ci::Stage.running.
+Creating scope :success. Overwriting existing method Ci::Stage.success.
+Creating scope :failed. Overwriting existing method Ci::Stage.failed.
+Creating scope :canceled. Overwriting existing method Ci::Stage.canceled.
+Creating scope :skipped. Overwriting existing method Ci::Stage.skipped.
+Creating scope :manual. Overwriting existing method Ci::Stage.manual.
+Creating scope :scheduled. Overwriting existing method Ci::Stage.scheduled.
+Creating scope :preparing. Overwriting existing method Ci::Stage.preparing.
+Creating scope :waiting_for_resource. Overwriting existing method Ci::Stage.waiting_for_resource.
+Creating scope :open. Overwriting existing method ExternalPullRequest.open.
+Creating scope :order_name_asc. Overwriting existing method Member.order_name_asc.
+Creating scope :order_name_desc. Overwriting existing method Member.order_name_desc.
+Creating scope :with_user. Overwriting existing method GroupMember.with_user.
+Creating scope :system. Overwriting existing method PrometheusMetric.system.
+Creating scope :system. Overwriting existing method Gitlab::DatabaseImporters::CommonMetrics::PrometheusMetric.system.
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:06:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 622)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:06:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:06:34 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 116.2ms | Allocations: 80457)
+Completed 200 OK in 121ms (Views: 113.4ms | ActiveRecord: 3.6ms | Elasticsearch: 0.0ms | Allocations: 82122)
+Raven 3.1.2 configured not to capture errors: DSN not set
+Creating scope :without_statuses. Overwriting existing method CommitStatus.without_statuses.
+Creating scope :in_pipelines. Overwriting existing method Ci::Build.in_pipelines.
+Creating scope :of_projects. Overwriting existing method MergeRequest.of_projects.
+Creating scope :join_project. Overwriting existing method MergeRequest.join_project.
+Creating scope :references_project. Overwriting existing method MergeRequest.references_project.
+Creating scope :system. Overwriting existing method Note.system.
+Creating scope :order_created_desc. Overwriting existing method Packages::Package.order_created_desc.
+Creating scope :order_name_desc. Overwriting existing method Packages::Package.order_name_desc.
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:06:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:06:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:07:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 0.7ms | Elasticsearch: 0.0ms | Allocations: 2996)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:07:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:07:34 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 74.8ms | Allocations: 81018)
+Completed 200 OK in 78ms (Views: 73.1ms | ActiveRecord: 2.2ms | Elasticsearch: 0.0ms | Allocations: 82677)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:07:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:07:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:08:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:08:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:08:35 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 85.3ms | Allocations: 80124)
+Completed 200 OK in 89ms (Views: 85.3ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 81788)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:08:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:08:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 618)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:09:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:09:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 615)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:09:35 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 428.1ms | Allocations: 376411)
+Completed 200 OK in 436ms (Views: 413.2ms | ActiveRecord: 16.5ms | Elasticsearch: 0.0ms | Allocations: 379136)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:09:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 36ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 646)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:09:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/" for 94.233.249.178 at 2021-06-30 16:10:01 +0000
+Processing by RootController#index as HTML
+Redirected to http://178.154.252.33/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 5399)
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:10:02 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 115.5ms | Allocations: 94083)
+Completed 200 OK in 160ms (Views: 119.7ms | ActiveRecord: 6.2ms | Elasticsearch: 0.0ms | Allocations: 106232)
+Started GET "/search/opensearch.xml" for 94.233.249.178 at 2021-06-30 16:10:03 +0000
+Processing by SearchController#opensearch as XML
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 3416)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:10:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:10:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/" for 74.82.47.5 at 2021-06-30 16:10:35 +0000
+Processing by RootController#index as HTML
+Redirected to http://178.154.252.33/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 3475)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:10:35 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.5ms | Allocations: 79130)
+Completed 200 OK in 68ms (Views: 64.4ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 80790)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:10:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:10:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:11:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/" for 94.233.249.178 at 2021-06-30 16:11:17 +0000
+Processing by RootController#index as HTML
+Redirected to http://178.154.252.33/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 3529)
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:11:17 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 17.0ms | Allocations: 8872)
+Completed 200 OK in 36ms (Views: 17.3ms | ActiveRecord: 2.0ms | Elasticsearch: 0.0ms | Allocations: 15681)
+Started GET "/users/sign_up" for 94.233.249.178 at 2021-06-30 16:11:20 +0000
+Processing by RegistrationsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 49.7ms | Allocations: 37092)
+Completed 200 OK in 61ms (Views: 50.5ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 42601)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:11:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:11:35 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 67.8ms | Allocations: 79024)
+Completed 200 OK in 71ms (Views: 67.9ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80684)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:11:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:11:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:12:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:12:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:12:36 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.9ms | Allocations: 80134)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 81798)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:12:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:12:46 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 171ms (ActiveRecord: 31.3ms | Elasticsearch: 0.0ms | Allocations: 40479)
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered layout layouts/devise.html.haml (Duration: 72.2ms | Allocations: 93479)
+Completed 200 OK in 156ms (Views: 75.4ms | ActiveRecord: 3.5ms | Elasticsearch: 0.0ms | Allocations: 100750)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:12:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:13:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 646)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:13:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:13:36 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 71.8ms | Allocations: 79259)
+Completed 200 OK in 75ms (Views: 71.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80919)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:13:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:13:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:14:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:14:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:14:36 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 63.9ms | Allocations: 79112)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80771)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:14:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/users/sign_up" for 94.233.249.178 at 2021-06-30 16:14:48 +0000
+Processing by RegistrationsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 38.6ms | Allocations: 36967)
+Completed 200 OK in 52ms (Views: 39.5ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 43434)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:14:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/users/denis-yusupov/exists" for 94.233.249.178 at 2021-06-30 16:15:04 +0000
+Processing by UsersController#exists as JSON
+  Parameters: {"username"=>"denis-yusupov"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.7ms | Elasticsearch: 0.0ms | Allocations: 3091)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:15:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:15:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users" for 94.233.249.178 at 2021-06-30 16:15:28 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "new_user"=>{"first_name"=>"Denis", "last_name"=>"Yusupov", "username"=>"denis-yusupov", "email"=>"wily.mister.fox@gmail.com", "password"=>"[FILTERED]"}}
+Potential spam detected for IP 94.233.249.178. Invisible Captcha timestamp not found in session.
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: ef0c1d17-a6b6-4453-9460-54af99d16852) to Sidekiq(mailers) with arguments: "Notify", "instance_access_request_email", "deliver_now", {:args=>[#<GlobalID:0x00007f4dc378e2a0 @uri=#<URI::GID gid://gitlab/User/2>>, #<GlobalID:0x00007f4dc3814cb0 @uri=#<URI::GID gid://gitlab/User/1>>]}
+Redirected to http://178.154.252.33/users/sign_in#login-pane
+Completed 302 Found in 385ms (ActiveRecord: 140.9ms | Elasticsearch: 0.0ms | Allocations: 42244)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [ef0c1d17-a6b6-4453-9460-54af99d16852] Performing ActionMailer::MailDeliveryJob (Job ID: ef0c1d17-a6b6-4453-9460-54af99d16852) from Sidekiq(mailers) enqueued at 2021-06-30T16:15:28Z with arguments: "Notify", "instance_access_request_email", "deliver_now", {:args=>[#<GlobalID:0x00007fdea03acdd0 @uri=#<URI::GID gid://gitlab/User/2>>, #<GlobalID:0x00007fdea03ac380 @uri=#<URI::GID gid://gitlab/User/1>>]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [ef0c1d17-a6b6-4453-9460-54af99d16852]   Rendered layout layouts/mailer.html.haml (Duration: 10.0ms | Allocations: 5106)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [ef0c1d17-a6b6-4453-9460-54af99d16852]   Rendered layout layouts/mailer.text.erb (Duration: 3.2ms | Allocations: 710)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [ef0c1d17-a6b6-4453-9460-54af99d16852] Delivered mail 60dc98a094ac9_36528708-122@gitlab.mail (5.8ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [ef0c1d17-a6b6-4453-9460-54af99d16852] Performed ActionMailer::MailDeliveryJob (Job ID: ef0c1d17-a6b6-4453-9460-54af99d16852) from Sidekiq(mailers) in 40.72ms
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:15:28 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 16.5ms | Allocations: 8886)
+Completed 200 OK in 30ms (Views: 16.7ms | ActiveRecord: 1.0ms | Elasticsearch: 0.0ms | Allocations: 14992)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:15:36 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 92.6ms | Allocations: 79281)
+Completed 200 OK in 96ms (Views: 92.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80942)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:15:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:15:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:16:01 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"wily.mister.fox@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}}
+Completed 401 Unauthorized in 117ms (ActiveRecord: 8.3ms | Elasticsearch: 0.0ms | Allocations: 14322)
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:16:01 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 14.8ms | Allocations: 7821)
+Completed 200 OK in 28ms (Views: 14.9ms | ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 12605)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:16:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:16:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:16:36 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 73.0ms | Allocations: 79249)
+Completed 200 OK in 78ms (Views: 73.3ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80908)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:16:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:16:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:17:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:17:11 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 13.9ms | Allocations: 8533)
+Completed 200 OK in 27ms (Views: 14.1ms | ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 13704)
+Started GET "/" for 94.233.249.178 at 2021-06-30 16:17:20 +0000
+Processing by RootController#index as HTML
+Redirected to http://178.154.252.33/users/sign_in
+Filter chain halted as :redirect_unlogged_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2841)
+Started GET "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:17:20 +0000
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 13.1ms | Allocations: 7700)
+Completed 200 OK in 23ms (Views: 13.2ms | ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 11788)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:17:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:17:29 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 156ms (ActiveRecord: 27.5ms | Elasticsearch: 0.0ms | Allocations: 39594)
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered layout layouts/devise.html.haml (Duration: 25.5ms | Allocations: 7700)
+Completed 200 OK in 96ms (Views: 25.3ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 11249)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:17:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.7ms | Allocations: 79889)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 81549)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:17:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:17:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:18:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:18:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:18:29 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 108ms (ActiveRecord: 15.1ms | Elasticsearch: 0.0ms | Allocations: 13120)
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered layout layouts/devise.html.haml (Duration: 13.4ms | Allocations: 7610)
+Completed 200 OK in 82ms (Views: 13.5ms | ActiveRecord: 1.0ms | Elasticsearch: 0.0ms | Allocations: 11147)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:18:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 63.8ms | Allocations: 78878)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80537)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:18:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:18:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/users/sign_in" for 94.233.249.178 at 2021-06-30 16:19:04 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"1"}}
+Redirected to http://178.154.252.33/
+Completed 302 Found in 252ms (ActiveRecord: 85.4ms | Elasticsearch: 0.0ms | Allocations: 57112)
+Started GET "/" for 94.233.249.178 at 2021-06-30 16:19:04 +0000
+Processing by RootController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 379.4ms | Allocations: 233083)
+Completed 200 OK in 668ms (Views: 343.6ms | ActiveRecord: 94.4ms | Elasticsearch: 0.0ms | Allocations: 376330)
+Started GET "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:09 +0000
+Processing by Profiles::PreferencesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 157.9ms | Allocations: 136613)
+Completed 200 OK in 174ms (Views: 156.8ms | ActiveRecord: 4.2ms | Elasticsearch: 0.0ms | Allocations: 143286)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:19:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:19:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:34 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"1", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 149ms (Views: 0.2ms | ActiveRecord: 31.0ms | Elasticsearch: 0.0ms | Allocations: 86120)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:36 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"10", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 4.8ms | Elasticsearch: 0.0ms | Allocations: 8073)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:19:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.6ms | Allocations: 79120)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80779)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:38 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"4", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 4.7ms | Elasticsearch: 0.0ms | Allocations: 8074)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:38 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"3", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 4.4ms | Elasticsearch: 0.0ms | Allocations: 8041)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:19:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:41 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"7", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 4.4ms | Elasticsearch: 0.0ms | Allocations: 8077)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:42 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"11", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 13.7ms | Elasticsearch: 0.0ms | Allocations: 8770)
+Started GET "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:42 +0000
+Processing by Profiles::PreferencesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 45.4ms | Allocations: 30750)
+Completed 200 OK in 58ms (Views: 44.1ms | ActiveRecord: 3.1ms | Elasticsearch: 0.0ms | Allocations: 35099)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:47 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"11", "color_scheme_id"=>"5", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 8.3ms | Elasticsearch: 0.0ms | Allocations: 8076)
+Started PUT "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:19:48 +0000
+Processing by Profiles::PreferencesController#update as JS
+  Parameters: {"user"=>{"theme_id"=>"11", "color_scheme_id"=>"2", "layout"=>"fixed", "dashboard"=>"projects", "project_view"=>"files", "render_whitespace_in_code"=>"0", "show_whitespace_in_diffs"=>"1", "view_diffs_file_by_file"=>"0", "markdown_surround_selection"=>"1", "tab_width"=>"8", "preferred_language"=>"en", "first_day_of_week"=>""}}
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 4.7ms | Elasticsearch: 0.0ms | Allocations: 8070)
+Started POST "/-/user_callouts" for 94.233.249.178 at 2021-06-30 16:19:52 +0000
+Processing by UserCalloutsController#create as JSON
+  Parameters: {"feature_name"=>"registration_enabled_callout", "user_callout"=>{"feature_name"=>"registration_enabled_callout"}}
+Completed 200 OK in 31ms (ActiveRecord: 16.7ms | Elasticsearch: 0.0ms | Allocations: 6985)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:19:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/profile/account" for 94.233.249.178 at 2021-06-30 16:20:01 +0000
+Processing by Profiles::AccountsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 310.1ms | Allocations: 192396)
+Completed 200 OK in 329ms (Views: 276.5ms | ActiveRecord: 37.2ms | Elasticsearch: 0.0ms | Allocations: 199338)
+Started GET "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:20:08 +0000
+Processing by Profiles::PreferencesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 80.3ms | Allocations: 77576)
+Completed 200 OK in 94ms (Views: 76.3ms | ActiveRecord: 6.6ms | Elasticsearch: 0.0ms | Allocations: 83111)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:20:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/profile/account" for 94.233.249.178 at 2021-06-30 16:20:11 +0000
+Processing by Profiles::AccountsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 53.4ms | Allocations: 31657)
+Completed 200 OK in 66ms (Views: 50.6ms | ActiveRecord: 4.9ms | Elasticsearch: 0.0ms | Allocations: 35975)
+Started GET "/-/profile" for 94.233.249.178 at 2021-06-30 16:20:12 +0000
+Processing by ProfilesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 416.4ms | Allocations: 265445)
+Completed 200 OK in 452ms (Views: 412.5ms | ActiveRecord: 10.3ms | Elasticsearch: 0.0ms | Allocations: 273249)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:20:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:20:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 67.2ms | Allocations: 79044)
+Completed 200 OK in 71ms (Views: 67.4ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 80705)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:20:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:20:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:21:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/dashboard/groups" for 94.233.249.178 at 2021-06-30 16:21:25 +0000
+Processing by Dashboard::GroupsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 72.8ms | Allocations: 45889)
+Completed 200 OK in 107ms (Views: 63.3ms | ActiveRecord: 15.8ms | Elasticsearch: 0.0ms | Allocations: 58457)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:21:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/dashboard/groups.json" for 94.233.249.178 at 2021-06-30 16:21:26 +0000
+Processing by Dashboard::GroupsController#index as JSON
+Completed 200 OK in 90ms (Views: 0.3ms | ActiveRecord: 32.3ms | Elasticsearch: 0.0ms | Allocations: 28485)
+Started GET "/groups/new" for 94.233.249.178 at 2021-06-30 16:21:29 +0000
+Processing by GroupsController#new as HTML
+  Rendered layout layouts/application.html.haml (Duration: 127.7ms | Allocations: 85949)
+Completed 200 OK in 149ms (Views: 126.8ms | ActiveRecord: 4.3ms | Elasticsearch: 0.0ms | Allocations: 94166)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:21:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 72.4ms | Allocations: 79496)
+Completed 200 OK in 76ms (Views: 72.5ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 81157)
+Started GET "/api/v4/namespaces/example/exists?parent_id=" for 94.233.249.178 at 2021-06-30 16:21:39 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 125)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:21:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/api/v4/namespaces/example/exists?parent_id=" for 94.233.249.178 at 2021-06-30 16:21:45 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 85)
+Started POST "/groups" for 94.233.249.178 at 2021-06-30 16:21:45 +0000
+Processing by GroupsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "group"=>{"name"=>"example", "parent_id"=>"", "path"=>"example", "visibility_level"=>"0"}}
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 214afb77-470b-4647-8529-7d3d82821ba7) to Sidekiq(mailers) with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 2]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [214afb77-470b-4647-8529-7d3d82821ba7] Performing ActionMailer::MailDeliveryJob (Job ID: 214afb77-470b-4647-8529-7d3d82821ba7) from Sidekiq(mailers) enqueued at 2021-06-30T16:21:45Z with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 2]}
+Redirected to http://178.154.252.33/example
+Completed 302 Found in 252ms (ActiveRecord: 102.1ms | Elasticsearch: 0.0ms | Allocations: 66774)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [214afb77-470b-4647-8529-7d3d82821ba7]   Rendered layout layouts/mailer.html.haml (Duration: 3.7ms | Allocations: 1315)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [214afb77-470b-4647-8529-7d3d82821ba7]   Rendered layout layouts/mailer.text.erb (Duration: 1.8ms | Allocations: 733)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [214afb77-470b-4647-8529-7d3d82821ba7] Delivered mail 60dc9a19b34e1_36529a04141@gitlab.mail (6.0ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [214afb77-470b-4647-8529-7d3d82821ba7] Performed ActionMailer::MailDeliveryJob (Job ID: 214afb77-470b-4647-8529-7d3d82821ba7) from Sidekiq(mailers) in 50.04ms
+Started GET "/example" for 94.233.249.178 at 2021-06-30 16:21:45 +0000
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"example"}
+  Rendered layout layouts/group.html.haml (Duration: 257.4ms | Allocations: 209732)
+Completed 200 OK in 285ms (Views: 240.6ms | ActiveRecord: 21.7ms | Elasticsearch: 0.0ms | Allocations: 219070)
+Started GET "/groups/example/-/children.json" for 94.233.249.178 at 2021-06-30 16:21:47 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"group_id"=>"example"}
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 4.9ms | Elasticsearch: 0.0ms | Allocations: 9368)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:21:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:22:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:22:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:22:37 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 65.8ms | Allocations: 80099)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 81758)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:22:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:22:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:04 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 1.1ms | ActiveRecord: 4.2ms | Elasticsearch: 0.0ms | Allocations: 5744)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:23:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:23:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:28 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 28ms (Views: 0.4ms | ActiveRecord: 7.8ms | Elasticsearch: 0.0ms | Allocations: 8740)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:32 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 13ms (Views: 0.4ms | ActiveRecord: 3.0ms | Elasticsearch: 0.0ms | Allocations: 3788)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:23:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 66.2ms | Allocations: 79105)
+Completed 200 OK in 69ms (Views: 66.3ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80764)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:39 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 12ms (Views: 0.4ms | ActiveRecord: 3.2ms | Elasticsearch: 0.0ms | Allocations: 3789)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:23:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:41 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 11ms (Views: 0.4ms | ActiveRecord: 3.0ms | Elasticsearch: 0.0ms | Allocations: 3783)
+Started GET "/homework/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:23:46 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"homework/example.git"}
+Completed 404 Not Found in 107ms (Views: 1.2ms | ActiveRecord: 11.6ms | Elasticsearch: 0.0ms | Allocations: 16343)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:23:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/groups/example/-/shared_projects.json" for 94.233.249.178 at 2021-06-30 16:24:05 +0000
+Processing by Groups::SharedProjectsController#index as JSON
+  Parameters: {"group_id"=>"example"}
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 3.9ms | Elasticsearch: 0.0ms | Allocations: 8602)
+Started GET "/groups/example/-/children.json?archived=only" for 94.233.249.178 at 2021-06-30 16:24:07 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"archived"=>"only", "group_id"=>"example"}
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 4.6ms | Elasticsearch: 0.0ms | Allocations: 9501)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:24:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:24:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/" for 94.233.249.178 at 2021-06-30 16:24:37 +0000
+Processing by RootController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 112.9ms | Allocations: 125203)
+Completed 200 OK in 260ms (Views: 111.2ms | ActiveRecord: 22.4ms | Elasticsearch: 0.0ms | Allocations: 179046)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:24:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.5ms | Allocations: 79047)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80708)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:24:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/projects/new" for 94.233.249.178 at 2021-06-30 16:24:50 +0000
+Processing by ProjectsController#new as HTML
+  Rendered layout layouts/application.html.haml (Duration: 210.6ms | Allocations: 189874)
+Completed 200 OK in 238ms (Views: 200.5ms | ActiveRecord: 13.4ms | Elasticsearch: 0.0ms | Allocations: 201304)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:24:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started POST "/boaform/admin/formLogin" for 209.141.49.75 at 2021-06-30 16:25:09 +0000
+Processing by ApplicationController#route_not_found as HTML
+  Parameters: {"username"=>"admin", "psd"=>"Feefifofum", "namespace_id"=>"boaform", "project_id"=>"admin", "all"=>"formLogin"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 300)
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call'
+lib/gitlab/middleware/rails_queue_duration.rb:33:in `call'
+lib/gitlab/metrics/rack_middleware.rb:16:in `block in call'
+lib/gitlab/metrics/web_transaction.rb:21:in `run'
+lib/gitlab/metrics/rack_middleware.rb:16:in `call'
+lib/gitlab/middleware/speedscope.rb:13:in `call'
+lib/gitlab/request_profiler/middleware.rb:17:in `call'
+lib/gitlab/jira/middleware.rb:19:in `call'
+lib/gitlab/middleware/go.rb:20:in `call'
+lib/gitlab/etag_caching/middleware.rb:21:in `call'
+lib/gitlab/middleware/multipart.rb:172:in `call'
+lib/gitlab/middleware/read_only/controller.rb:50:in `call'
+lib/gitlab/middleware/read_only.rb:18:in `call'
+lib/gitlab/middleware/same_site_cookies.rb:27:in `call'
+lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call'
+lib/gitlab/middleware/basic_health_check.rb:25:in `call'
+lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call'
+lib/gitlab/middleware/request_context.rb:21:in `call'
+config/initializers/fix_local_cache_middleware.rb:11:in `call'
+lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call'
+lib/gitlab/metrics/requests_rack_middleware.rb:74:in `call'
+lib/gitlab/middleware/release_env.rb:12:in `call'
+Started POST "/-/projects" for 94.233.249.178 at 2021-06-30 16:25:10 +0000
+Processing by ProjectsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"ci_cd_only"=>"false", "name"=>"homework", "namespace_id"=>"1", "path"=>"homework", "description"=>"[FILTERED]", "visibility_level"=>"0"}}
+Redirected to http://178.154.252.33/root/homework
+Completed 302 Found in 583ms (ActiveRecord: 264.7ms | Elasticsearch: 0.0ms | Allocations: 132440)
+Started GET "/root/homework" for 94.233.249.178 at 2021-06-30 16:25:10 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"homework"}
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:25:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+  Rendered layout layouts/project.html.haml (Duration: 465.8ms | Allocations: 263461)
+Completed 200 OK in 520ms (Views: 396.4ms | ActiveRecord: 78.4ms | Elasticsearch: 0.0ms | Allocations: 279235)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:25:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:25:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 63.4ms | Allocations: 79044)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80705)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:25:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/root/homework" for 94.233.249.178 at 2021-06-30 16:25:47 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"homework"}
+  Rendered layout layouts/project.html.haml (Duration: 381.6ms | Allocations: 264550)
+Completed 200 OK in 433ms (Views: 346.4ms | ActiveRecord: 40.6ms | Elasticsearch: 0.0ms | Allocations: 281478)
+Started GET "/groups/new" for 94.233.249.178 at 2021-06-30 16:25:53 +0000
+Processing by GroupsController#new as HTML
+  Rendered layout layouts/application.html.haml (Duration: 67.4ms | Allocations: 74089)
+Completed 200 OK in 83ms (Views: 66.4ms | ActiveRecord: 2.9ms | Elasticsearch: 0.0ms | Allocations: 80657)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:25:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 646)
+Started GET "/api/v4/namespaces/example/exists?parent_id=" for 94.233.249.178 at 2021-06-30 16:26:01 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 85)
+Started POST "/groups" for 94.233.249.178 at 2021-06-30 16:26:02 +0000
+Processing by GroupsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "group"=>{"name"=>"example", "parent_id"=>"", "path"=>"example1", "visibility_level"=>"20"}}
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 8e0744f6-5ba5-4185-8f48-f99753476d74) to Sidekiq(mailers) with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 4]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [8e0744f6-5ba5-4185-8f48-f99753476d74] Performing ActionMailer::MailDeliveryJob (Job ID: 8e0744f6-5ba5-4185-8f48-f99753476d74) from Sidekiq(mailers) enqueued at 2021-06-30T16:26:03Z with arguments: "Notify", "member_access_granted_email", "deliver_now", {:args=>["Group", 4]}
+Redirected to http://178.154.252.33/example1
+Completed 302 Found in 151ms (ActiveRecord: 40.9ms | Elasticsearch: 0.0ms | Allocations: 48072)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [8e0744f6-5ba5-4185-8f48-f99753476d74]   Rendered layout layouts/mailer.html.haml (Duration: 3.7ms | Allocations: 1301)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [8e0744f6-5ba5-4185-8f48-f99753476d74]   Rendered layout layouts/mailer.text.erb (Duration: 1.8ms | Allocations: 646)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [8e0744f6-5ba5-4185-8f48-f99753476d74] Delivered mail 60dc9b1b14ff4_36526da4345@gitlab.mail (5.7ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [8e0744f6-5ba5-4185-8f48-f99753476d74] Performed ActionMailer::MailDeliveryJob (Job ID: 8e0744f6-5ba5-4185-8f48-f99753476d74) from Sidekiq(mailers) in 51.46ms
+Started GET "/example1" for 94.233.249.178 at 2021-06-30 16:26:03 +0000
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"example1"}
+  Rendered layout layouts/group.html.haml (Duration: 201.7ms | Allocations: 198983)
+Completed 200 OK in 223ms (Views: 190.8ms | ActiveRecord: 14.5ms | Elasticsearch: 0.0ms | Allocations: 207430)
+Started GET "/groups/example1/-/children.json" for 94.233.249.178 at 2021-06-30 16:26:03 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"group_id"=>"example1"}
+Completed 200 OK in 21ms (Views: 0.1ms | ActiveRecord: 4.3ms | Elasticsearch: 0.0ms | Allocations: 7971)
+Started GET "/dashboard/groups" for 94.233.249.178 at 2021-06-30 16:26:10 +0000
+Processing by Dashboard::GroupsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 64.8ms | Allocations: 43551)
+Completed 200 OK in 87ms (Views: 57.7ms | ActiveRecord: 9.8ms | Elasticsearch: 0.0ms | Allocations: 53041)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:26:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/dashboard/groups.json" for 94.233.249.178 at 2021-06-30 16:26:11 +0000
+Processing by Dashboard::GroupsController#index as JSON
+Completed 200 OK in 81ms (Views: 0.5ms | ActiveRecord: 25.3ms | Elasticsearch: 0.0ms | Allocations: 22993)
+Started GET "/example" for 94.233.249.178 at 2021-06-30 16:26:15 +0000
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"example"}
+  Rendered layout layouts/group.html.haml (Duration: 135.9ms | Allocations: 50511)
+Completed 200 OK in 157ms (Views: 123.7ms | ActiveRecord: 14.9ms | Elasticsearch: 0.0ms | Allocations: 58281)
+Started GET "/groups/example/-/children.json" for 94.233.249.178 at 2021-06-30 16:26:16 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"group_id"=>"example"}
+Completed 200 OK in 23ms (Views: 0.1ms | ActiveRecord: 4.8ms | Elasticsearch: 0.0ms | Allocations: 8005)
+Started GET "/dashboard/groups" for 94.233.249.178 at 2021-06-30 16:26:17 +0000
+Processing by Dashboard::GroupsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 55.1ms | Allocations: 22919)
+Completed 200 OK in 74ms (Views: 44.7ms | ActiveRecord: 12.6ms | Elasticsearch: 0.0ms | Allocations: 30290)
+Started GET "/example" for 94.233.249.178 at 2021-06-30 16:26:18 +0000
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"example"}
+  Rendered layout layouts/group.html.haml (Duration: 97.7ms | Allocations: 49996)
+Completed 200 OK in 116ms (Views: 86.1ms | ActiveRecord: 14.2ms | Elasticsearch: 0.0ms | Allocations: 57084)
+Started GET "/groups/example/-/children.json" for 94.233.249.178 at 2021-06-30 16:26:19 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"group_id"=>"example"}
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 4.5ms | Elasticsearch: 0.0ms | Allocations: 7981)
+Started GET "/groups/example/-/edit" for 94.233.249.178 at 2021-06-30 16:26:23 +0000
+Processing by GroupsController#edit as HTML
+  Parameters: {"id"=>"example"}
+  Rendered layout layouts/group_settings.html.haml (Duration: 304.2ms | Allocations: 204309)
+Completed 200 OK in 639ms (Views: 273.2ms | ActiveRecord: 33.2ms | Elasticsearch: 0.0ms | Allocations: 398794)
+Started GET "/api/v4/groups/4/badges" for 94.233.249.178 at 2021-06-30 16:26:24 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 85)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:26:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/example" for 94.233.249.178 at 2021-06-30 16:26:36 +0000
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"example"}
+  Rendered layout layouts/group.html.haml (Duration: 103.4ms | Allocations: 51254)
+Completed 200 OK in 122ms (Views: 90.7ms | ActiveRecord: 15.4ms | Elasticsearch: 0.0ms | Allocations: 58340)
+Started GET "/groups/example/-/children.json" for 94.233.249.178 at 2021-06-30 16:26:37 +0000
+Processing by Groups::ChildrenController#index as JSON
+  Parameters: {"group_id"=>"example"}
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 4.6ms | Elasticsearch: 0.0ms | Allocations: 7984)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:26:38 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 63.9ms | Allocations: 79038)
+Completed 200 OK in 67ms (Views: 63.9ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 80699)
+Started GET "/-/profile/preferences" for 94.233.249.178 at 2021-06-30 16:26:39 +0000
+Processing by Profiles::PreferencesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 55.3ms | Allocations: 32255)
+Completed 200 OK in 68ms (Views: 54.3ms | ActiveRecord: 3.1ms | Elasticsearch: 0.0ms | Allocations: 36619)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:26:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/profile/gpg_keys" for 94.233.249.178 at 2021-06-30 16:26:48 +0000
+Processing by Profiles::GpgKeysController#index as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 56.8ms | Allocations: 39975)
+Completed 200 OK in 93ms (Views: 55.3ms | ActiveRecord: 15.1ms | Elasticsearch: 0.0ms | Allocations: 50250)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:26:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/profile" for 94.233.249.178 at 2021-06-30 16:27:01 +0000
+Processing by ProfilesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 72.9ms | Allocations: 50552)
+Completed 200 OK in 87ms (Views: 70.5ms | ActiveRecord: 4.4ms | Elasticsearch: 0.0ms | Allocations: 55250)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:27:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/admin" for 94.233.249.178 at 2021-06-30 16:27:11 +0000
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 170.2ms | Allocations: 180056)
+Completed 200 OK in 238ms (Views: 155.2ms | ActiveRecord: 43.9ms | Elasticsearch: 0.0ms | Allocations: 200599)
+Started GET "/api/v4/application/statistics" for 94.233.249.178 at 2021-06-30 16:27:12 +0000
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 85)
+Started GET "/admin/dashboard/stats" for 94.233.249.178 at 2021-06-30 16:27:15 +0000
+Processing by Admin::DashboardController#stats as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 112.4ms | Allocations: 134321)
+Completed 200 OK in 133ms (Views: 110.7ms | ActiveRecord: 7.9ms | Elasticsearch: 0.0ms | Allocations: 141637)
+Started GET "/admin" for 94.233.249.178 at 2021-06-30 16:27:17 +0000
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 110.4ms | Allocations: 94922)
+Completed 200 OK in 167ms (Views: 104.0ms | ActiveRecord: 28.7ms | Elasticsearch: 0.0ms | Allocations: 109712)
+Started GET "/admin/projects" for 94.233.249.178 at 2021-06-30 16:27:21 +0000
+Processing by Admin::ProjectsController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 95.1ms | Allocations: 67656)
+Completed 200 OK in 110ms (Views: 90.3ms | ActiveRecord: 7.6ms | Elasticsearch: 0.0ms | Allocations: 73920)
+Started GET "/admin" for 94.233.249.178 at 2021-06-30 16:27:25 +0000
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 67.3ms | Allocations: 38812)
+Completed 200 OK in 110ms (Views: 61.7ms | ActiveRecord: 26.9ms | Elasticsearch: 0.0ms | Allocations: 49229)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:27:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/admin/groups/new" for 94.233.249.178 at 2021-06-30 16:27:26 +0000
+Processing by Admin::GroupsController#new as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 109.5ms | Allocations: 97138)
+Completed 200 OK in 142ms (Views: 108.6ms | ActiveRecord: 15.6ms | Elasticsearch: 0.0ms | Allocations: 105659)
+Started GET "/admin" for 94.233.249.178 at 2021-06-30 16:27:29 +0000
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 67.7ms | Allocations: 37760)
+Completed 200 OK in 111ms (Views: 61.7ms | ActiveRecord: 27.5ms | Elasticsearch: 0.0ms | Allocations: 48037)
+Started GET "/admin/groups" for 94.233.249.178 at 2021-06-30 16:27:32 +0000
+Processing by Admin::GroupsController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 87.7ms | Allocations: 55106)
+Completed 200 OK in 107ms (Views: 81.3ms | ActiveRecord: 8.9ms | Elasticsearch: 0.0ms | Allocations: 60580)
+Started DELETE "/admin/groups/example" for 94.233.249.178 at 2021-06-30 16:27:38 +0000
+Processing by Admin::GroupsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"example"}
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:27:38 +0000
+Processing by HelpController#index as */*
+Redirected to http://178.154.252.33/admin/groups
+Completed 302 Found in 48ms (ActiveRecord: 3.0ms | Elasticsearch: 0.0ms | Allocations: 7876)
+  Rendered layout layouts/help.html.haml (Duration: 110.3ms | Allocations: 79011)
+Completed 200 OK in 116ms (Views: 110.6ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80672)
+Started GET "/admin/groups" for 94.233.249.178 at 2021-06-30 16:27:39 +0000
+Processing by Admin::GroupsController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 82.2ms | Allocations: 35807)
+Completed 200 OK in 99ms (Views: 75.7ms | ActiveRecord: 9.0ms | Elasticsearch: 0.0ms | Allocations: 40364)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:27:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/admin/groups" for 94.233.249.178 at 2021-06-30 16:27:45 +0000
+Processing by Admin::GroupsController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 65.5ms | Allocations: 33189)
+Completed 200 OK in 80ms (Views: 58.4ms | ActiveRecord: 9.3ms | Elasticsearch: 0.0ms | Allocations: 37749)
+Started GET "/admin/groups/example1/edit" for 94.233.249.178 at 2021-06-30 16:27:47 +0000
+Processing by Admin::GroupsController#edit as HTML
+  Parameters: {"id"=>"example1"}
+  Rendered layout layouts/admin.html.haml (Duration: 67.0ms | Allocations: 41800)
+Completed 200 OK in 86ms (Views: 63.2ms | ActiveRecord: 6.7ms | Elasticsearch: 0.0ms | Allocations: 48970)
+Started GET "/admin/groups" for 94.233.249.178 at 2021-06-30 16:27:51 +0000
+Processing by Admin::GroupsController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 63.1ms | Allocations: 33217)
+Completed 200 OK in 76ms (Views: 58.2ms | ActiveRecord: 6.9ms | Elasticsearch: 0.0ms | Allocations: 37777)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:27:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/dashboard/projects" for 94.233.249.178 at 2021-06-30 16:27:56 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 76.8ms | Allocations: 43625)
+Completed 200 OK in 114ms (Views: 73.6ms | ActiveRecord: 10.1ms | Elasticsearch: 0.0ms | Allocations: 57524)
+Started GET "/root/homework" for 94.233.249.178 at 2021-06-30 16:27:58 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"homework"}
+  Rendered layout layouts/project.html.haml (Duration: 146.6ms | Allocations: 71938)
+Completed 200 OK in 209ms (Views: 137.2ms | ActiveRecord: 14.3ms | Elasticsearch: 0.0ms | Allocations: 85477)
+Started GET "/dashboard/projects" for 94.233.249.178 at 2021-06-30 16:28:03 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 83.8ms | Allocations: 28779)
+Completed 200 OK in 120ms (Views: 81.7ms | ActiveRecord: 9.0ms | Elasticsearch: 0.0ms | Allocations: 41699)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:28:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:28:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:28:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 69.6ms | Allocations: 79275)
+Completed 200 OK in 73ms (Views: 69.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80936)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:28:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:28:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:29:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/projects/new" for 94.233.249.178 at 2021-06-30 16:29:15 +0000
+Processing by ProjectsController#new as HTML
+  Rendered layout layouts/application.html.haml (Duration: 128.6ms | Allocations: 53049)
+Completed 200 OK in 151ms (Views: 119.6ms | ActiveRecord: 11.0ms | Elasticsearch: 0.0ms | Allocations: 61650)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:29:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started POST "/-/projects" for 94.233.249.178 at 2021-06-30 16:29:30 +0000
+Processing by ProjectsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "project"=>{"ci_cd_only"=>"false", "name"=>"example", "namespace_id"=>"1", "path"=>"example", "description"=>"[FILTERED]", "visibility_level"=>"20"}}
+Redirected to http://178.154.252.33/root/example
+Completed 302 Found in 418ms (ActiveRecord: 148.2ms | Elasticsearch: 0.0ms | Allocations: 98336)
+Started GET "/root/example" for 94.233.249.178 at 2021-06-30 16:29:30 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"example"}
+  Rendered layout layouts/project.html.haml (Duration: 163.5ms | Allocations: 73805)
+Completed 200 OK in 205ms (Views: 144.0ms | ActiveRecord: 23.8ms | Elasticsearch: 0.0ms | Allocations: 86822)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:29:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 71.0ms | Allocations: 79049)
+Completed 200 OK in 74ms (Views: 71.0ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80710)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:29:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:29:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:30:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:30:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:30:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.7ms | Allocations: 79113)
+Completed 200 OK in 68ms (Views: 64.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80772)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:30:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:30:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:31:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:31:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:31:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 66.0ms | Allocations: 79108)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80767)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:31:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:31:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:32:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:32:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:32:39 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 66.0ms | Allocations: 79111)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80770)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:32:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:32:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:33:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:33:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:33:40 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.5ms | Allocations: 79119)
+Completed 200 OK in 68ms (Views: 64.5ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80779)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:33:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:33:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:34:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:34:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:34:40 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 69.5ms | Allocations: 79105)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 80764)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:34:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:34:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:35:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/dashboard/projects" for 94.233.249.178 at 2021-06-30 16:35:12 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 79.7ms | Allocations: 36909)
+Completed 200 OK in 114ms (Views: 73.8ms | ActiveRecord: 11.8ms | Elasticsearch: 0.0ms | Allocations: 49776)
+Started GET "/root/homework" for 94.233.249.178 at 2021-06-30 16:35:14 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"homework"}
+  Rendered layout layouts/project.html.haml (Duration: 128.7ms | Allocations: 69206)
+Completed 200 OK in 168ms (Views: 119.7ms | ActiveRecord: 13.0ms | Elasticsearch: 0.0ms | Allocations: 82703)
+Started GET "/dashboard/projects" for 94.233.249.178 at 2021-06-30 16:35:19 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 72.4ms | Allocations: 29024)
+Completed 200 OK in 104ms (Views: 69.9ms | ActiveRecord: 8.3ms | Elasticsearch: 0.0ms | Allocations: 40839)
+Started GET "/gitlab-instance-7edf27ef/Monitoring" for 94.233.249.178 at 2021-06-30 16:35:21 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"gitlab-instance-7edf27ef", "id"=>"Monitoring"}
+  Rendered layout layouts/project.html.haml (Duration: 147.1ms | Allocations: 75933)
+Completed 200 OK in 187ms (Views: 135.0ms | ActiveRecord: 16.2ms | Elasticsearch: 0.0ms | Allocations: 89589)
+Started GET "/dashboard/projects" for 94.233.249.178 at 2021-06-30 16:35:22 +0000
+Processing by Dashboard::ProjectsController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 52.2ms | Allocations: 28721)
+Completed 200 OK in 88ms (Views: 49.2ms | ActiveRecord: 9.4ms | Elasticsearch: 0.0ms | Allocations: 40534)
+Started GET "/root/example" for 94.233.249.178 at 2021-06-30 16:35:23 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"namespace_id"=>"root", "id"=>"example"}
+  Rendered layout layouts/project.html.haml (Duration: 136.9ms | Allocations: 67435)
+Completed 200 OK in 174ms (Views: 125.5ms | ActiveRecord: 15.1ms | Elasticsearch: 0.0ms | Allocations: 80436)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:35:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:35:40 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 65.9ms | Allocations: 78892)
+Completed 200 OK in 69ms (Views: 65.9ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80552)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:35:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:35:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:36:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:36:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:36:40 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.7ms | Allocations: 79105)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80764)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:36:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:36:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:37:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:37:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:37:40 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.7ms | Allocations: 79111)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80770)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:37:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:37:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:38:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:38:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:38:40 +0000
+Processing by HelpController#index as */*
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:38:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+  Rendered layout layouts/help.html.haml (Duration: 73.7ms | Allocations: 79105)
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80764)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:38:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:39:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:39:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:39:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:39:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 96.1ms | Allocations: 79116)
+Completed 200 OK in 100ms (Views: 96.1ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 80775)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:39:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/root/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:39:58 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"root/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.4ms | ActiveRecord: 1.3ms | Elasticsearch: 0.0ms | Allocations: 2325)
+Started GET "/root/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:40:08 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"root/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.5ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 2413)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:40:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/root/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:40:11 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"root/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 0.3ms | ActiveRecord: 1.2ms | Elasticsearch: 0.0ms | Allocations: 2095)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:40:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:40:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:40:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 63.3ms | Allocations: 79123)
+Completed 200 OK in 66ms (Views: 63.2ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80783)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:40:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:41:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/root/example.git/info/refs?service=git-receive-pack" for 94.233.249.178 at 2021-06-30 16:41:22 +0000
+Processing by Repositories::GitHttpController#info_refs as */*
+  Parameters: {"service"=>"git-receive-pack", "repository_path"=>"root/example.git"}
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 0.4ms | ActiveRecord: 1.8ms | Elasticsearch: 0.0ms | Allocations: 2827)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:41:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:41:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:41:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 70.8ms | Allocations: 79114)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80773)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:41:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:42:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:42:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:42:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 645)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:42:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 64.7ms | Allocations: 79122)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.5ms | Elasticsearch: 0.0ms | Allocations: 80781)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:42:55 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:43:10 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:43:25 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/-/metrics" for 127.0.0.1 at 2021-06-30 16:43:40 +0000
+Processing by MetricsController#index as HTML
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 644)
+Started GET "/help" for 127.0.0.1 at 2021-06-30 16:43:41 +0000
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 96.1ms | Allocations: 79121)
+Completed 200 OK in 100ms (Views: 96.4ms | ActiveRecord: 0.6ms | Elasticsearch: 0.0ms | Allocations: 80781)
