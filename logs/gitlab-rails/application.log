@@ -65,3 +65,35 @@ Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_c
 2021-06-30T16:27:39.106Z: Group "example" was removed
 2021-06-30T16:29:30.410Z: Administrator created a new project "Administrator / example"
 2021-06-30T16:29:30.587Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2021-06-30T16:46:43.393Z: Updating statistics for project 3
+2021-06-30T16:46:43.587Z: Updating statistics for project 3
+2021-06-30T16:46:47.217Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2021-06-30T16:46:47.826Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:46:47.948Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:46:48.030Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:37.905Z: {:message=>"Pipeline authorized", :project_id=>3, :user_id=>1}
+2021-06-30T16:48:38.540Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.623Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.629Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.671Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.686Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.751Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.762Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.942Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:38.952Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:1. There must be another instance already in execution.
+2021-06-30T16:48:39.364Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:52:54.864Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:52:54.883Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:52:54.916Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:56:07.822Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:56:28.116Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:56:28.122Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T16:56:28.143Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T17:00:06.676Z: StuckCiJobsWorker: Cleaning stuck builds
+2021-06-30T17:00:15.336Z: example created a new project "example / asd"
+2021-06-30T17:01:43.990Z: Updating statistics for project 3
+2021-06-30T17:01:43.993Z: Updating statistics for project 3
+2021-06-30T17:01:44.053Z: Cannot obtain an exclusive lease for namespace:namespaces_root_statistics:1. There must be another instance already in execution.
+2021-06-30T17:15:56.597Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T17:16:22.607Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
+2021-06-30T17:16:37.558Z: Cannot obtain an exclusive lease for ci/pipeline_processing/atomic_processing_service::pipeline_id:2. There must be another instance already in execution.
